@@ -12,7 +12,6 @@ int [] RandomArray()
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = rnd.Next(100, 999);
-        //if(array[i] >= 99 && array[i] <= 1000);
     }
     return array;
 }
