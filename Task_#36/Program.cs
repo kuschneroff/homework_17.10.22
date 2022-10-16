@@ -12,7 +12,7 @@ int [] RandomArray()
     Random rnd = new Random();
     for (int i = 0; i < massiv.Length; i++)
     {
-        massiv[i] = rnd.Next(1, 10);
+        massiv[i] = rnd.Next(-10, 10);
     }
     return massiv;
 }
